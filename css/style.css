@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(to top right, #4dad41, #5b9eec);
+    background-attachment: fixed;
+}
+
+.form {
+    background-color: #fff;
+    margin: 98px auto;
+    max-width: 400px;
+    padding: 38px 200px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 7px;
+}
+
+textarea {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form .başlık h1 {
+    position: relative;
+    bottom: 20px;
+}
+
+.form div {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form input[type=url],
+textarea {
+    box-sizing: border-box;
+    background-color: #ece1e1;
+    border: none;
+    padding: 13px;
+}
+
+.form .field-divided {
+    width: 100%;
+}
+
+.form .field-divided1 {
+    width: 100%;
+    position: relative;
+    left: 23px;
+}
+
+.form .field-long {
+    width: 100%;
+}
+
+.form .field-textarea {
+    height: 100px;
+}
+
+.form input[type=submit] {
+    background-image: linear-gradient(to top right, #5b9eec, #4dad41);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    position: relative;
+    left: 150px;
+}
+
+.form .span-color {
+    color: red;
+}
+
+.float {
+    float: left;
+}
+
+.margin-10 {
+    margin-bottom: 10px;
+}
